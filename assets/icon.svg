@@ -1,0 +1,35 @@
+<!-- SPDX-License-Identifier: MIT -->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0.000" stop-color="#fff9eb" />
+      <stop offset="1.000" stop-color="#f0e6d2" />
+    </linearGradient>
+    <linearGradient id="pad-face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0.000" stop-color="#fffdf5" />
+      <stop offset="1.000" stop-color="#eee5d5" />
+    </linearGradient>
+    <filter id="pad-shadow" x="-30%" y="-40%" width="160%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity=".18" />
+    </filter>
+    <clipPath id="icon-canvas">
+      <rect x="12" y="12" width="232" height="232" rx="53" />
+    </clipPath>
+    <clipPath id="pad-interior">
+      <rect x="33" y="69" width="190" height="126" rx="13" />
+    </clipPath>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="53" fill="url(#bg)" />
+  <g clip-path="url(#icon-canvas)">
+    <g filter="url(#pad-shadow)">
+      <rect x="28" y="69" width="200" height="135" rx="17" fill="#c9bdab" />
+      <rect x="28" y="64" width="200" height="135" rx="17" fill="url(#pad-face)" stroke="#c8bdac" stroke-width="1.2" />
+      <path d="M46 65H210" stroke="#ffffff" stroke-opacity=".65" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+    <g clip-path="url(#pad-interior)">
+      <path d="M67 155C48 121 84 88 127 94C169 99 180 141 149 160C124 177 91 155 103 133C115 111 148 122 138 141" fill="none" stroke="#34342f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M194 90 Q196.52 96.48 203 99 Q196.52 101.52 194 108 Q191.48 101.52 185 99 Q191.48 96.48 194 90Z" fill="#ed775b" />
+    </g>
+  </g>
+  <rect x="12.5" y="12.5" width="231" height="231" rx="52.5" fill="none" stroke="#ffffff" stroke-opacity=".32" />
+</svg>

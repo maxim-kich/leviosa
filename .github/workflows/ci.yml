@@ -1,0 +1,14 @@
+name: CI
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  build-test:
+    name: Build and test (Apple Silicon)
+    runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - run: ./test.sh
+      - run: ./build.sh
+      - run: python3 scripts/check-repository.py

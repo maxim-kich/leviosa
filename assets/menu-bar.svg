@@ -1,0 +1,7 @@
+<!-- SPDX-License-Identifier: MIT -->
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g transform="translate(-6.8 -6.2) scale(.12)">
+    <path d="M67 155C48 121 84 88 127 94C169 99 180 141 149 160C124 177 91 155 103 133C115 111 148 122 138 141" fill="none" stroke="#000000" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M194 90 Q196.52 96.48 203 99 Q196.52 101.52 194 108 Q191.48 101.52 185 99 Q191.48 96.48 194 90Z" fill="#000000" transform="translate(190 99) scale(1.4) translate(-194 -99)" />
+  </g>
+</svg>

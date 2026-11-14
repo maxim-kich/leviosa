@@ -1,0 +1,15 @@
+build/
+dist/
+.local/
+.DS_Store
+__pycache__/
+*.pyc
+# Historical local QA evidence, retained locally but not published.
+/docs/qa/
+/docs/gesture-settings.md
+/docs/capture-lifecycle-audit.md
+/docs/gesture-design-review.md
+/docs/idle-measurement.md
+/docs/custom-shortcut.md
+/docs/licensing.md
+/docs/*.json

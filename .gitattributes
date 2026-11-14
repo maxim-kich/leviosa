@@ -1,0 +1,5 @@
+# Preserve upstream vendor bytes; do not rewrite signed framework headers or notices.
+vendor/** -whitespace
+
+# Retain upstream license texts byte-for-byte.
+docs/licenses/*.txt -whitespace
